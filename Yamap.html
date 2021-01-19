@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Yandex Map</title>
+<meta charset="utf-8">
+<script src="http://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU"></script>
+<script>
+ymaps.ready(init);
+function init () {
+var myMap = new ymaps.Map("map", {
+center: [54.21905638, 49.60356230],
+zoom: 17
+});
+}
+</script>
+</head>
+<body style="margin:0;">
+<div id="map" style="width:30000px; height:30000px"></div>
+</body>
+</html>
